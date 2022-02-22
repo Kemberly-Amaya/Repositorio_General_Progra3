@@ -4,10 +4,14 @@
  */
 package Services;
 
+import Pojos.Estudiante;
+
 /**
  *
  * @author kembe
  */
-public interface INumero {
+public interface IEstudiante {
+    //Interfaz modele lo que viene del acceso
     
+    public int Acces(Estudiante es);
 }
